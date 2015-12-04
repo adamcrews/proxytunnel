@@ -63,8 +63,6 @@ mandir = $(datadir)/man
 # Remove strlcpy/strlcat on (open)bsd/darwin systems
 OBJ = proxytunnel.o	\
 	base64.o	\
-	strlcpy.o	\
-	strlcat.o	\
 	strzcat.o	\
 	setproctitle.o	\
 	io.o		\
