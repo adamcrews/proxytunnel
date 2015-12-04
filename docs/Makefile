@@ -17,7 +17,7 @@ clean:
 	asciidoc -d manpage $<
 
 %.1: %.1.xml
-	xmlto man $<
+	xmlto --skip-validation man $<
 
 %.html: %.adoc
 	asciidoc $<
